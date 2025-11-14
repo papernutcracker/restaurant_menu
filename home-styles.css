@@ -1,0 +1,98 @@
+.bg-photo {
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.6),
+            rgba(47, 48, 58, 0.6)),
+        url(./img/Background-image.png);
+    background-repeat: no-repeat;
+    height: 946px;
+    background-size: cover;
+
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    font-family: 'lora', serif;
+}
+
+html,
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'lora', serif;
+}
+
+button {
+    font-family: 'lora', serif;
+    border: none;
+    background-color: transparent;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 24px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+    padding: 16px 24px;
+    background-color: #00000033;
+    border-radius: 72px;
+}
+
+.logo {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu a:not(.active) {
+    color: #d7d7d7;
+}
+
+.menu .active {
+    font-weight: 600;
+}
+
+.yellow-btn {
+    color: #151515;
+    background-color: #f4c73f;
+    padding: 12px 14px;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.menu a:not(.active):hover {
+    color: #f4c73f;
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
